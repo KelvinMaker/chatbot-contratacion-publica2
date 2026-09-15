@@ -1,0 +1,24 @@
+{
+  "name": "chatbot-contratacion-publica",
+  "version": "3.0.0",
+  "description": "Chatbot inteligente sobre contratación pública colombiana basado en Claude AI",
+  "main": "netlify/functions/chat.js",
+  "scripts": {
+    "start": "netlify dev",
+    "dev": "netlify dev"
+  },
+  "keywords": [
+    "contratacion",
+    "publica",
+    "chatbot",
+    "ia",
+    "claude",
+    "secop",
+    "colombia"
+  ],
+  "author": "Kelvin Maker",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.9.0"
+  }
+}

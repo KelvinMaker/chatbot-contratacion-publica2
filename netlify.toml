@@ -1,0 +1,16 @@
+[build]
+  command = "npm install"
+  functions = "netlify/functions"
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/chatbot-ia.html"
+  status = 200
+
+[dev]
+  command = "npm install && netlify dev"
+  port = 8888
+
+[context.production]
+  command = "npm install"
