@@ -2,7 +2,7 @@
 // Archivo: netlify/functions/chat.js
 // Este archivo se debe colocar en la carpeta: netlify/functions/
 
-const Anthropic = require("@anthropic-ai/sdk");
+const Anthropic = require("@anthropic-ai/sdk").default;
 
 const client = new Anthropic({
   apiKey: process.env.CLAUDE_API_KEY,
